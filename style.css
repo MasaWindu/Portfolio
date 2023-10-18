@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css?family=Sawarabi+Mincho');
+@import url('https://fonts.cdnfonts.com/css/horizon');
+@import url('https://fonts.cdnfonts.com/css/science-fiction-101');
+@import url('https://fonts.cdnfonts.com/css/sein-blue');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap');
+
+/*ヘッダーの設定*/
+header{
+    width: 100%;
+    position:fixed;
+    background-color: black;
+    color: whitesmoke;
+}
+
+
+/*全体に関する設定*/
+.body{
+    padding-top: 70px;
+    background-color: black;
+}
+
+/*自己紹介部分に関する設定*/
+.Start {
+    color: whitesmoke;
+    background-color: black;
+}
+/*自分の写真に関する設定*/
+.man{
+    text-align: center;
+    width: 100%;
+    border-radius:50%;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 20px;
+}
+/*自己紹介欄*/
+.Myname{
+    width: 100%;
+    font-size: 2.5vw;
+    padding-top: 15%;
+
+}
+
+.portfolioimage{
+    text-align: center;
+    width: 95%;
+    border-radius:30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 3px;
+    border-color: whitesmoke;
+}
+
+.portfoliotext{
+    margin-left: 10px;
+    font-size: 2vmax;
+    font-family: "Hiragino Sans","ヒラギノ角ゴシック";
+    font-weight: 900;
+}
+
+.look{
+    margin-top: 5%;
+    margin-bottom: 1%;
+    text-decoration:underline;
+}
+
+.photo{
+    text-align: right;
+}
+
+/*about部分に関する設定*/
+.about {
+    color: whitesmoke;
+    background-color: black;
+    
+}
+
+/*portfolio部分に関する設定*/
+.portfolio {
+    color: whitesmoke;
+    background-color: black;
+    
+}
+
+.processing{
+    padding-top: 5vmax;
+    padding-bottom: 2vmax;
+}
+
+/*quotes部分に関する設定*/
+.quotes {
+    color: whitesmoke;
+    background-color: black;
+    
+}
+
+
+/*h1に関する設定*/
+h1{
+    /*font-family: 'Cherry Swash', cursive;*/
+    /*font-family: 'Sawarabi Mincho', sans-serif;*/
+    /*font-family: 'Science Fiction 101', sans-serif;*/
+    font-family: 'Horizon', sans-serif;
+    border-top: 3px solid whitesmoke;
+    border-bottom: 3px solid whitesmoke;
+    text-align: center;
+    font-size: 5vmax;
+}
+
+
+/*h2に関する設定*/
+h2{
+    /*font-family: 'Cherry Swash', cursive;*/
+    /*font-family: 'Sawarabi Mincho', sans-serif;*/
+    /*font-family: 'Science Fiction 101', sans-serif;*/
+    /*font-family: 'Horizon', sans-serif;*/
+    text-decoration:underline;
+    padding-left: 20px;
+    font-size: 3.6vmax;
+}
+h2.myname{
+    font-family: "Hiragino Sans","ヒラギノ角ゴシック";
+    font-weight: 900;
+}
+h2.sub{
+    margin-top: 30px;
+    font-family: 'SEIN BLUE', sans-serif;
+}
+
+/*h3に関する設定*/
+h3{
+    text-align: center;
+    text-decoration:underline;
+    font-family: 'SEIN BLUE', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 3vmax;
+}
+
+/*箇条書き部に関する設定*/
+ul{
+    font-family: 'SEIN BLUE', sans-serif;
+    font-size: 18px;
+}
