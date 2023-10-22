@@ -13,6 +13,18 @@ header{
     color: whitesmoke;
 }
 
+/*フッターの設定*/
+footer{
+    border-top: 3px solid whitesmoke;
+    border-bottom: 3px solid whitesmoke;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+}
+
 
 /*全体に関する設定*/
 .body{
@@ -51,6 +63,23 @@ header{
     margin-bottom: 20px;
     border: solid 3px;
     border-color: whitesmoke;
+}
+
+.portfolioimage2{
+    text-align: center;
+    width: 95%;
+    border-radius:30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 3px;
+    border-color: whitesmoke;
+}
+
+.portfolioimage:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px
+    rgba(0,0,0,0.5);
+    transition-duration: 0.5s;
 }
 
 .portfoliotext{
@@ -143,4 +172,28 @@ h3{
 ul{
     font-family: 'SEIN BLUE', sans-serif;
     font-size: 18px;
+}
+
+.sample1 {
+	width:			100%;
+}
+.sample1 .caption {
+	font-size:		130%;
+	text-align: 		center;
+	padding-top:		80px;
+	color:			#fff;
+}
+.sample1 .mask {
+	width:			100%;
+	height:			100%;
+	position:		absolute;	/* 絶対位置指定 */
+	top:			0;
+	left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+	-webkit-transition:	all 0.2s ease;
+	transition:		all 0.2s ease;
+}
+.sample1:hover .mask {
+	opacity:		1;	/* マスクを表示する */
 }
